@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "718476559129",
+    "firebase_url": "https://parchi-247818.firebaseio.com",
+    "project_id": "parchi-247818",
+    "storage_bucket": "parchi-247818.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718476559129:android:7c2f50ef7bccc245",
+        "android_client_info": {
+          "package_name": "com.example.vaibhavmaithani.parchi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "718476559129-78f7uihpfrk98b52vv1abif8cdjicgs5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vaibhavmaithani.parchi",
+            "certificate_hash": "71655742d609094eca60e56a13cf200f4d21835c"
+          }
+        },
+        {
+          "client_id": "718476559129-us9bo9sbiv4c2ev28ga8vf3plcln78su.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBH_gCIsH8f5AeVbzRIpt_tY2_VW8UQwRU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "718476559129-us9bo9sbiv4c2ev28ga8vf3plcln78su.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

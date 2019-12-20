@@ -1,0 +1,87 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e3f2fd"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.vaibhavmaithani.parchi.ItemScannedFragement">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageButton
+        android:id="@+id/camera_openId"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_margin="30dp"
+        android:background="@android:drawable/screen_background_light_transparent"
+        android:cropToPadding="true"
+        android:scaleType="centerCrop"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/default_image" />
+
+    <EditText
+        android:id="@+id/imagedisc_id"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@drawable/ipput_outline"
+        android:padding="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Description"
+        android:inputType="textPersonName"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="40dp"
+        app:layout_constraintTop_toBottomOf="@+id/camera_openId"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp" />
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/submitbtn_id"
+        style="@style/loginbtn"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:text="Submit"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/imagedisc_id"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintVertical_bias="0.211" />
+
+
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:gravity="center"
+        android:id="@+id/goback_id"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Cancel and Go back"
+        android:textStyle="bold"
+        android:textColor="#2979ff"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/loginbtn_id"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="95dp"
+        app:layout_constraintVertical_bias="0.279"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+</android.support.constraint.ConstraintLayout>

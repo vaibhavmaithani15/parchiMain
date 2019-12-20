@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Parchi</string>
+    <string name="next_activity"><u>No account yet? Create One</u>.</string>
+    <string name="back_activity"><u>Back To Login</u>.</string>
+    <string name="log_in">Log In</string>
+    <string name="my_image">my image</string>
+    <string name="john_do">John Do</string>
+    <string name="example_gmail_com">example@gmail.com</string>
+    <string name="my_profile">My Profile</string>
+    <string name="money_management">Money Management</string>
+    <string name="items_scanned">Items Scanned</string>
+    <string name="log_out">Log Out</string>
+    <string name="open_drawer">Open navigation drawer</string>
+    <string name="close_drawer">Close navigation drawer</string>
+    <string name="money">Money</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
+
+

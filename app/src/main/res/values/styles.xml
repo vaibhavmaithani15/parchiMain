@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="loginbtn" parent="Widget.AppCompat.Button.Colored">
+        <item name="backgroundTint">@color/loginbtn</item>
+        <item name="android:textColor">@color/loginbtntext</item>
+    </style>
+
+    <style name="googlebtn" parent="Widget.AppCompat.Button.Colored">
+        <item name="backgroundTint">@color/googlebtn</item>
+        <item name="android:textColor">@color/loginbtntext</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="MaterialSearchViewStyle">
+    <!-- Background for the search bar -->
+    <item name="searchBackground">@color/hk</item>
+    </style>
+
+</resources>
