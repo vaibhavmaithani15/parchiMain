@@ -25,7 +25,8 @@
         </activity>
         <!-- <activity -->
         <!-- android:name="com.theartofdev.edmodo.cropper.CropImageActivity" -->
-        <!-- android:theme="@style/Base.Theme.AppCompat" /> -->
+        <!-- android:theme="@style/Base.Theme.AppCdsjfajsdfkjdfkjasdkjl;fdasjkfkjlaslsakj;lompat" /> -->
+
 
         <activity
             android:name=".MainActivity"
